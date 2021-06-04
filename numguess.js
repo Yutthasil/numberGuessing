@@ -24,7 +24,7 @@ function Gamestart(){//from menu to game
     guess = new sound("/Sound/enter.wav");
     error = new sound("/Sound/error2.mp3");
     audio.play();
-    var limit = 5;
+    var limit = 120;
     time = setInterval(function() {
         timer.innerHTML = "Time : " + limit;
         limit--;
